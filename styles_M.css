@@ -182,12 +182,6 @@ nav ul li a:hover {
     animation: fadeIn 0.25s ease-in-out;
 }
 
-/* Animación suave */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translate(-50%, 10px); }
-    to   { opacity: 1; transform: translate(-50%, 0); }
-}
-
 /* Indicador de submenú */
 .dropdown > a::after {
     content: " ▼";
@@ -596,4 +590,5 @@ footer {
     .footer-banner img {
         max-height: 150px;
     }
+
 }
